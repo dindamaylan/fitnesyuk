@@ -72,17 +72,28 @@ body {
 /* END GLOBAL */
 
 /* NAVBAR */
-.navigasi {
+.navbar {
     float: center;
     padding-top: 32px;
     padding-bottom: 32px;
 }
 
-.navigasi a {
+.navbar a {
     font-weight: 400;
-    color: #fff;
+    color: #fff !important;
     font-size: 16px;
-    margin-right: 40px;
+}
+
+.navbar-collapse {
+    padding: 0px 50px;
+}
+
+.navbar-collapse ul li {
+    margin: 0 10px 0 10px;
+}
+
+.navbar a:hover {
+    color: #1458EC !important;
 }
 
 .navbar .active {
@@ -269,17 +280,21 @@ body {
     padding: 100px 0;
 }
 
-.galery .arrow {
-    margin: 40px 0 70px 0;
-
+.galery .rowArrow {
+    margin-top: 40px;
 }
 
 .galery .container-fluid {
     padding-left: 0 !important;
     padding-right: 0 !important;
+    margin-top: 70px;
+    margin-bottom: 100px;
 }
 
-.galery img-fluid {}
+.galery img-fluid {
+    margin: 0 !important;
+    padding: 0 !important;
+}
 
 /* END GALERY */
 
